@@ -52,4 +52,4 @@ const VerificarToken = async (req, res = request, next) => {
 module.exports = {
   GenerarToken,
   VerificarToken,
-}
+};
