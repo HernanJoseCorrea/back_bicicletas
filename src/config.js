@@ -3,7 +3,7 @@ const config = {
     cors: {
       server: [
         {
-          origin: "http://localhost:3000", //servidor que deseas que consuma o (*) en caso que sea acceso libre
+          origin: "http://bicicletash", //servidor que deseas que consuma o (*) en caso que sea acceso libre
           credentials: true
         }
       ]

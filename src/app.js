@@ -47,6 +47,9 @@ app.use((req, res, next) => {
 //   res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
 //   next();
 // });
+app.get('/', (req, res) => {
+	res.send('Hola Mundo');
+});
 
 app.use('/api', login);
 
