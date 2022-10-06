@@ -5,4 +5,4 @@ const main = async() =>{
     console.log('Server on');
 }
 
-main()
+main();
