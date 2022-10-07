@@ -19,4 +19,4 @@ db.authenticate().then(() => {
   console.log('No conectado');
 })
 
-module.exports = db;
+module.exports = db
